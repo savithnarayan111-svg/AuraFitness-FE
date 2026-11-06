@@ -279,7 +279,7 @@ export default function CouponManagement() {
             </div>
 
             <div className="px-8 py-5 border-t border-gray-100 bg-gray-50/50 flex justify-end gap-3">
-              <button type="button" onClick={() => setIsModalOpen(false)} className="px-6 py-2 text-sm font-bold text-gray-400 hover:text-gray-600 transition">
+              <button type="button" onClick={() => setIsModalOpen(false)} className="border px-4 py-2 rounded-lg text-sm">
                 Cancel
               </button>
               <button type="submit" className="bg-yellow-400 text-black px-10 py-2.5 rounded-xl font-bold shadow-sm hover:bg-[#e5c004] active:scale-95 transition">

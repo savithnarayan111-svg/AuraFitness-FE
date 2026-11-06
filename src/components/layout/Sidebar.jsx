@@ -37,11 +37,11 @@ export default function Sidebar({ isOpen, onClose }) {
       >
         {/* LOGO & Mobile Close */}
         <div className="p-4 border-b border-[#00000014] flex items-center justify-between">
-          <div className="flex items-center justify-center p-1 flex-1">
+          <div className="flex items-center justify-center p-1 flex-1 ">
             <img
               src={TronFitLogo}
               alt="Tron Fit"
-              className="max-h-14 sm:max-h-16 w-auto object-contain"
+              className="max-h-14 sm:max-h-16 w-auto object-contain rounded-full"
             />
           </div>
           <button

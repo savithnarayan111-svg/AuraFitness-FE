@@ -30,10 +30,10 @@ export default function RecentOrders() {
         amount: Number(r.rental_amount || 0),
         status:
           !r.status ||
-          r.status === "OVERDUE" ||
-          r.status === "ACTIVE" ||
-          r.status === "RETURNED" ||
-          r.status === "COMPLETED"
+            r.status === "OVERDUE" ||
+            r.status === "ACTIVE" ||
+            r.status === "RETURNED" ||
+            r.status === "COMPLETED"
             ? "Completed"
             : r.status,
         date: r.rental_date || r.created_at || null,
