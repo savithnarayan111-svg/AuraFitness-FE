@@ -25,11 +25,15 @@ function AppContent() {
   if (loading)
     return (
       <div className="fixed inset-0 bg-white flex flex-col items-center justify-center font-sans z-[9999]">
-        <div className="w-24 h-24 rounded-full shadow-xl flex items-center justify-center mb-6 overflow-hidden border-4 border-yellow-400">
-          <img src="/GymstoreLogo.jpg" alt="Gymstoreness" className="w-full h-full object-cover" />
+        <div className="w-24 h-24 mb-6 rounded-full overflow-hidden">
+          <img
+            src="/metafit.jpeg"
+            alt="Meta Fit"
+            className="w-full h-full object-fill block"
+          />
         </div>
         <div className="w-10 h-10 border-4 border-gray-200 border-t-blue-400 rounded-full animate-spin mb-4"></div>
-        <h1 className="text-2xl font-black text-black tracking-tight">Gymstore</h1>
+        <h1 className="text-2xl font-black text-black tracking-tight">Meta Fit</h1>
         <p className="text-sm text-gray-500 font-medium mt-2 animate-pulse">
           Connecting to server...
         </p>
