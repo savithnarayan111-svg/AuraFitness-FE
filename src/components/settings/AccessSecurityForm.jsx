@@ -10,6 +10,7 @@ import {
 } from "react-icons/fi";
 import { getServerUrl, getCsrfToken } from "../../api/backendApi";
 
+
 export default function AccessSecurityForm() {
   const [currentPassword, setCurrentPassword] = useState("");
   const [newPassword, setNewPassword] = useState("");
