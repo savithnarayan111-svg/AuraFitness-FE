@@ -10,7 +10,7 @@ import {
   FiX,
 } from "react-icons/fi";
 import { MdOutlineDashboard } from "react-icons/md";
-import metafit from "../../assets/metafit.jpeg";
+import aura_fitness from "../../assets/aura_fitness.jpeg";
 import { NavLink } from "react-router-dom";
 
 const linkClass = ({ isActive }) =>
@@ -39,8 +39,8 @@ export default function Sidebar({ isOpen, onClose }) {
         <div className="p-4 border-b border-[#00000014] flex items-center justify-between">
           <div className="flex items-center justify-center p-1 flex-1 ">
             <img
-              src={metafit}
-              alt="Meta Fit"
+              src={aura_fitness}
+              alt="Aura Fitness"
               className="max-h-14 sm:max-h-16 w-auto object-contain rounded-full"
             />
           </div>

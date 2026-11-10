@@ -28,12 +28,12 @@ function AppContent() {
         <div className="w-24 h-24 mb-6 rounded-full overflow-hidden">
           <img
             src="/metafit.jpeg"
-            alt="Meta Fit"
+            alt="Aura Fitness"
             className="w-full h-full object-fill block"
           />
         </div>
         <div className="w-10 h-10 border-4 border-gray-200 border-t-blue-400 rounded-full animate-spin mb-4"></div>
-        <h1 className="text-2xl font-black text-black tracking-tight">Meta Fit</h1>
+        <h1 className="text-2xl font-black text-black tracking-tight">Aura Fitness</h1>
         <p className="text-sm text-gray-500 font-medium mt-2 animate-pulse">
           Connecting to server...
         </p>
