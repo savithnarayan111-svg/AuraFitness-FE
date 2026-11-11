@@ -27,7 +27,7 @@ function AppContent() {
       <div className="fixed inset-0 bg-white flex flex-col items-center justify-center font-sans z-[9999]">
         <div className="w-24 h-24 mb-6 rounded-full overflow-hidden">
           <img
-            src="/metafit.jpeg"
+            src="/aura_fitness.jpeg"
             alt="Aura Fitness"
             className="w-full h-full object-fill block"
           />
